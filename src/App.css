@@ -588,6 +588,7 @@ header .header-bottom .nav .search_icon {
 }
 
 .latest_section .card_container .cards .card .card_details .card_last a {
+  margin-top: 16px;
   font-weight: 500;
   font-size: 14px;
   color: #007296;
