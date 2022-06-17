@@ -26,6 +26,7 @@ ol {
 a {
   color: #ffffff;
   cursor: pointer;
+  text-decoration: none;
 }
 
 header {
