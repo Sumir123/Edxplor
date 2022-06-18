@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FiSearch } from "react-icons/fi";
 import { HiOutlineChevronDown } from "react-icons/hi";
 
@@ -17,7 +18,7 @@ const Nav = () => {
       <div className="header-bottom">
         <ul className="nav">
           <li>
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <a href="#">
@@ -25,9 +26,9 @@ const Nav = () => {
             </a>
           </li>
           <li>
-            <a href="#">
+            <Link to="/colleges">
               Colleges <HiOutlineChevronDown className="down_icon" />
-            </a>
+            </Link>
           </li>
           <li>
             <a href="#">News & Views</a>
