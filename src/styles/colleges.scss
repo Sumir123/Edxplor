@@ -231,6 +231,36 @@
       }
     }
   }
+  .page_numbers {
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    gap: 12px;
+    .page_no {
+      padding: 8px;
+    }
+    .border {
+      width: 32px;
+      height: 32px;
+      background: #f8f8f8;
+      border-radius: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+    }
+    .active {
+      background: #e66e19;
+      color: white;
+      border-radius: 40px;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 }
 .college_details_section {
   margin-top: 175px;

@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import { FaChevronRight } from "react-icons/fa";
-import { FiSearch } from "react-icons/fi";
+import { FiSearch, FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
 const Colleges = () => {
   return (
@@ -503,6 +503,21 @@ const Colleges = () => {
                   01-4244636
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="page_numbers">
+            <div className="previous border">
+              <FiChevronLeft />
+            </div>
+            <div className="page_no ">1</div>
+            <div className="page_no">....</div>
+            <div className="page_no">9</div>
+            <div className="page_no active">10</div>
+            <div className="page_no">11</div>
+            <div className="page_no">....</div>
+            <div className="page_no">100</div>
+            <div className="next border">
+              <FiChevronRight />
             </div>
           </div>
         </div>
