@@ -30,7 +30,7 @@ const Cources_details = () => {
           <h2>Bachelor of Computer Application</h2>
         </div>
       </div>
-      <div className="college_details_section">
+      <div className="cources_details_section margin-top-152">
         <div className="side_section">
           <div className="menus active">Overview</div>
           <div className="menus">Admission Opens </div>

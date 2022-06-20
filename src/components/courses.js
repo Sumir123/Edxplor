@@ -119,7 +119,7 @@ const Courses = () => {
         <div className="main_body">
           <div className="page_info">
             <div className="info">
-              Showing <b>10</b> colleges of <b>125</b> for you
+              Showing <b>10</b> courses of <b>125</b> for you
             </div>
             <div className="sort">
               <div className="select_menu">
@@ -132,7 +132,7 @@ const Courses = () => {
           <div className="colleges_info">
             <div className="college">
               <div className="college_name">
-                <Link to="/cources_details">
+                <Link to="/courses_details">
                   <h3>Management(XII)</h3>
                 </Link>
               </div>

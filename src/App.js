@@ -6,8 +6,8 @@ import Footer from "./components/footer";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
 import Colleges_details from "./components/colleges_details";
-import Courses from "./components/cources";
-import Cources_details from "./components/cources_details";
+import Courses from "./components/courses";
+import Cources_details from "./components/courses_details";
 
 function App() {
   return (
@@ -16,8 +16,8 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/cources" element={<Courses />} />
-          <Route path="/cources_details" element={<Cources_details />} />
+          <Route path="/courses" element={<Courses />} />
+          <Route path="/courses_details" element={<Cources_details />} />
           <Route path="/colleges" element={<Colleges />} />
           <Route path="/colleges_details" element={<Colleges_details />} />
         </Routes>

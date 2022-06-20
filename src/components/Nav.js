@@ -21,7 +21,7 @@ const Nav = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/cources">
+            <Link to="/courses">
               Courses <HiOutlineChevronDown className="down_icon" />
             </Link>
           </li>
