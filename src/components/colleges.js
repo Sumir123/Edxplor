@@ -37,7 +37,7 @@ const Colleges = () => {
         <div className="filters">
           <div className="search_bar">
             <input type="text" placeholder="Search Universities" />
-            <FiSearch className="search_icon small" stroke-width="2.5" />
+            <FiSearch className="search_icon small" strokeWidth="2.5" />
           </div>
           <div className="filter_container">
             <div className="types">
@@ -124,7 +124,7 @@ const Colleges = () => {
           <div className="colleges_info">
             <div className="college">
               <div className="college_name">
-                <img src="/images/clz_logos/image 45.png" />
+                <img src="/images/clz_logos/image 45.png" alt="" />
                 <Link to="/colleges_details">
                   <h3>Janamaitri Multiple Campus</h3>
                 </Link>
@@ -164,7 +164,7 @@ const Colleges = () => {
             </div>
             <div className="college">
               <div className="college_name">
-                <img src="/images/clz_logos/image 45-1.png" />
+                <img src="/images/clz_logos/image 45-1.png" alt="" />
                 <h3>KIST College & SS</h3>
               </div>
               <div className="college_details">
@@ -202,7 +202,7 @@ const Colleges = () => {
             </div>
             <div className="college">
               <div className="college_name">
-                <img src="/images/clz_logos/image 55.png" />
+                <img src="/images/clz_logos/image 55.png" alt="" />
                 <h3>Apex College</h3>
               </div>
               <div className="college_details">
@@ -240,7 +240,7 @@ const Colleges = () => {
             </div>
             <div className="college">
               <div className="college_name">
-                <img src="/images/clz_logos/image 54.png" />
+                <img src="/images/clz_logos/image 54.png" alt="" />
                 <h3>Nepal Mega College</h3>
               </div>
               <div className="college_details">
@@ -278,7 +278,7 @@ const Colleges = () => {
             </div>
             <div className="college">
               <div className="college_name">
-                <img src="/images/clz_logos/image 56.png" />
+                <img src="/images/clz_logos/image 56.png" alt="" />
                 <h3>Uniglobe College</h3>
               </div>
               <div className="college_details">
@@ -316,7 +316,7 @@ const Colleges = () => {
             </div>
             <div className="college">
               <div className="college_name">
-                <img src="/images/clz_logos/image 53.png" />
+                <img src="/images/clz_logos/image 53.png" alt="" />
                 <h3>V.S. Niketan College</h3>
               </div>
               <div className="college_details">
@@ -354,7 +354,7 @@ const Colleges = () => {
             </div>
             <div className="college">
               <div className="college_name">
-                <img src="/images/clz_logos/image 47.png" />
+                <img src="/images/clz_logos/image 47.png" alt="" />
                 <h3>Global College of Management</h3>
               </div>
               <div className="college_details">
@@ -392,7 +392,7 @@ const Colleges = () => {
             </div>
             <div className="college">
               <div className="college_name">
-                <img src="/images/clz_logos/image 52.png" />
+                <img src="/images/clz_logos/image 52.png" alt="" />
                 <h3>St. Lawrence College</h3>
               </div>
               <div className="college_details">
@@ -430,7 +430,7 @@ const Colleges = () => {
             </div>
             <div className="college">
               <div className="college_name">
-                <img src="/images/clz_logos/image 51.png" />
+                <img src="/images/clz_logos/image 51.png" alt="" />
                 <h3>United College</h3>
               </div>
               <div className="college_details">
@@ -468,7 +468,7 @@ const Colleges = () => {
             </div>
             <div className="college">
               <div className="college_name">
-                <img src="/images/clz_logos/image 50.png" />
+                <img src="/images/clz_logos/image 50.png" alt="" />
                 <h3>St.Xavier’s College</h3>
               </div>
               <div className="college_details">

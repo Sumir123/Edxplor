@@ -21,9 +21,9 @@ const Nav = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#">
+            <Link to="/cources">
               Courses <HiOutlineChevronDown className="down_icon" />
-            </a>
+            </Link>
           </li>
           <li>
             <Link to="/colleges">
@@ -38,7 +38,7 @@ const Nav = () => {
           </li>
           <li>
             <a href="#">
-              <FiSearch className="search_icon" stroke-width="2.5" />
+              <FiSearch className="search_icon" strokeWidth="2.5" />
             </a>
           </li>
         </ul>

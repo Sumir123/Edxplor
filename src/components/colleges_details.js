@@ -251,7 +251,7 @@ const Colleges_details = () => {
           <div className="sections">
             <h4>Overview </h4>
             <div className="section">
-              <div className="descriptions">
+              <div className="desc">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
                   eu turpis molestie, dictum est a, mattis tellus.

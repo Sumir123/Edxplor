@@ -20,7 +20,7 @@ ul,
 ol {
   list-style: none;
 }
- .container {
+.container {
   padding: 0px 119px;
 }
 .btn {
@@ -118,6 +118,7 @@ footer {
         font-weight: 300;
         font-size: 16px;
         margin-top: 24px;
+
         ul {
           display: flex;
           flex-direction: column;
@@ -138,7 +139,7 @@ footer {
         p {
           font-weight: 300;
           font-size: 16px;
-          margin-top: 24px;
+          margin-top: 16px;
           width: 264px;
         }
         form {
@@ -204,3 +205,40 @@ footer {
 
 @import "./home";
 @import "./colleges";
+
+@media (max-width: 600px) {
+  .header-top,
+  .header-bottom,
+  .footer_top,
+  .footer_bottom,
+  .colleges_section,
+  .find_section,
+  .resource_section .resource_container,
+  .search_form,
+  .info_section .infos,
+  .info_section .headings,
+  .info_section .info_container,
+  .hero_section,
+  .latest_section {
+    padding: 5px 20px !important;
+    margin: 0px 0px !important;
+    display: block;
+  }
+  .hero_section .texture_rectangle,
+  .resource_section > img {
+    display: none !important;
+  }
+  .resource_section
+    .resource_container
+    .resource_details
+    .resources
+    .resource_btn_group
+    .resource_btn,
+  footer .footer_top,
+  .search_form .form_contaoner form,
+  .latest_section .card_container .cards,
+  .colleges_section .colleges_logo {
+    display: block;
+    width: 100wh;
+  }
+}

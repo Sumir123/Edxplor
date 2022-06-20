@@ -122,7 +122,7 @@ footer .footer_top .footer_container .suscribe_section h4 {
 footer .footer_top .footer_container .suscribe_section p {
   font-weight: 300;
   font-size: 16px;
-  margin-top: 24px;
+  margin-top: 16px;
   width: 264px;
 }
 footer .footer_top .footer_container .suscribe_section form {
@@ -708,6 +708,9 @@ footer .footer_bottom .right {
   align-items: center;
   gap: 8px;
   margin-top: 16px;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 14px;
 }
 .cover_image_container .center .path .item {
   display: flex;
@@ -715,6 +718,30 @@ footer .footer_bottom .right {
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
+}
+.cover_image_container .cources_heading {
+  width: 1128px;
+  height: 112px;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.0392156863), 0px 4px 12px rgba(0, 0, 0, 0.0784313725);
+  border-radius: 4px;
+  position: absolute;
+  bottom: -33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cover_image_container .cources_heading h2 {
+  text-align: center;
+  color: #007296;
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  color: #007296;
 }
 .cover_image_container .college_heading {
   width: 1128px;
@@ -976,6 +1003,14 @@ footer .footer_bottom .right {
   color: #3f3b3a;
   margin-bottom: 4px;
 }
+.college_details_section .main_section .courses .course .title .sub_title {
+  font-weight: 400;
+  font-size: 14px;
+  color: #8c8989;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
 .college_details_section .main_section .courses .course .title .discount {
   font-weight: 400;
   font-size: 14px;
@@ -1024,6 +1059,7 @@ footer .footer_bottom .right {
   line-height: 150%;
   text-align: justify;
   color: #787675;
+  width: 840px;
 }
 .college_details_section .main_section .description .paragraph ul,
 .college_details_section .main_section .programs .paragraph ul {
@@ -1064,7 +1100,7 @@ footer .footer_bottom .right {
   color: #007296;
 }
 .college_details_section .main_section .admission_section .guidelines table {
-  width: 100%;
+  width: 840px;
   margin-top: 24px;
   text-align: left;
   border-collapse: separate;
@@ -1098,6 +1134,28 @@ footer .footer_bottom .right {
 }
 .college_details_section .main_section .sections {
   margin-top: 96px;
+}
+.college_details_section .main_section .sections .desc p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #787675;
+  text-align: justify;
+}
+.college_details_section .main_section .sections .desc p:first-child {
+  margin-bottom: 16px;
+}
+.college_details_section .main_section .sections .descriptions {
+  margin-bottom: 96px;
+}
+.college_details_section .main_section .sections .descriptions p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #787675;
+  width: 840px;
+  text-align: justify;
+}
+.college_details_section .main_section .sections .descriptions p:first-child {
+  margin-bottom: 16px;
 }
 .college_details_section .main_section .sections h4 {
   font-size: 18px;
@@ -1133,6 +1191,7 @@ footer .footer_bottom .right {
 .college_details_section .main_section .sections .section {
   display: flex;
   margin-bottom: 96px;
+  gap: 32px;
 }
 .college_details_section .main_section .sections .section .descriptions p:first-child {
   margin-bottom: 16px;
@@ -1162,6 +1221,38 @@ footer .footer_bottom .right {
   font-weight: 400;
   font-size: 12px;
   color: #2f2c2c;
+}
+
+@media (max-width: 600px) {
+  .header-top,
+.header-bottom,
+.footer_top,
+.footer_bottom,
+.colleges_section,
+.find_section,
+.resource_section .resource_container,
+.search_form,
+.info_section .infos,
+.info_section .headings,
+.info_section .info_container,
+.hero_section,
+.latest_section {
+    padding: 5px 20px !important;
+    margin: 0px 0px !important;
+    display: block;
+  }
+  .hero_section .texture_rectangle,
+.resource_section > img {
+    display: none !important;
+  }
+  .resource_section .resource_container .resource_details .resources .resource_btn_group .resource_btn,
+footer .footer_top,
+.search_form .form_contaoner form,
+.latest_section .card_container .cards,
+.colleges_section .colleges_logo {
+    display: block;
+    width: 100wh;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
