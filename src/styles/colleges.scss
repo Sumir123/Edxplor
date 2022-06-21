@@ -570,7 +570,7 @@
   }
 }
 
-////css for result page
+////    css for result page   /////
 .absolute_box {
   position: absolute;
   bottom: -8%;
@@ -661,6 +661,157 @@
           }
         }
       }
+    }
+  }
+}
+
+////    css for Entrance page   /////
+.entrance_container {
+  margin: 0px 119px;
+  margin-top: 96px;
+  gap: 25px;
+
+  .column {
+    .small {
+      font-weight: 400;
+      font-size: 14px;
+
+      b {
+        font-weight: 600;
+      }
+    }
+    .page_count {
+      margin-bottom: 24px;
+      color: #656261;
+    }
+    .entrance_list {
+      .card {
+        padding: 16px;
+        background: #ffffff;
+        box-shadow: 0px 8px 24px #0000000a, 0px 4px 8px #0000000f;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        width: 839px;
+        &:not(:last-child) {
+          margin-bottom: 24px;
+        }
+        &:last-child {
+          margin-bottom: 32px;
+        }
+        .card_details {
+          margin: auto;
+
+          .tags {
+            background: #fae2d1;
+            border-radius: 58px;
+            font-weight: 400;
+            font-size: 12px;
+            text-align: center;
+            color: #73370d;
+            width: 92px;
+            margin-bottom: 12px;
+          }
+          h3 {
+            font-weight: 400;
+            font-size: 16px;
+            color: #3f3b3a;
+            margin-bottom: 8px;
+          }
+          p {
+            font-weight: 300;
+            font-size: 14px;
+            color: #656261;
+            margin-bottom: 12px;
+          }
+          .card_footer {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 150%;
+            color: #8c8989;
+            display: flex;
+            gap: 24px;
+            .icon_name {
+              display: flex;
+              gap: 8px;
+            }
+          }
+        }
+      }
+    }
+    form {
+      position: relative;
+      margin-bottom: 24px;
+      input[type="text"] {
+        padding: 8px 16px;
+        background: #ffffff;
+        border: 1px solid #b2b1b0;
+        border-radius: 4px;
+        color: #8c8989;
+        font-weight: 400;
+        font-size: 14px;
+        width: 264px;
+      }
+      .search_icon {
+        font-size: 20px;
+        position: absolute;
+        right: 12px;
+        top: 6px;
+        color: #8c8989;
+      }
+    }
+    .categorie_list {
+      background: #fafafa;
+      border-radius: 8px;
+      padding: 24px;
+      color: #8c8989;
+      h4 {
+        color: #3f3b3a;
+        font-weight: 400;
+        font-size: 16px;
+        margin-bottom: 16px;
+      }
+      .group {
+        font-weight: 400;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        &:not(:last-child) {
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+  .page_numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 96px;
+    .page_no {
+      padding: 8px;
+    }
+    .border {
+      width: 32px;
+      height: 32px;
+      background: #f8f8f8;
+      border-radius: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+    }
+    .active {
+      background: #e66e19;
+      color: white;
+      border-radius: 40px;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 }

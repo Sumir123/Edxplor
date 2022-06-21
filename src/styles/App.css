@@ -26,6 +26,10 @@ ol {
   cursor: pointer;
 }
 
+.row {
+  display: flex;
+}
+
 a {
   color: #ffffff;
   cursor: pointer;
@@ -1365,6 +1369,149 @@ footer .footer_bottom .right {
 }
 .courses_container .colleges_info .college .college_details .detail:not(:last-child) {
   margin-bottom: 12px;
+}
+
+.entrance_container {
+  margin: 0px 119px;
+  margin-top: 96px;
+  gap: 25px;
+}
+.entrance_container .column .small {
+  font-weight: 400;
+  font-size: 14px;
+}
+.entrance_container .column .small b {
+  font-weight: 600;
+}
+.entrance_container .column .page_count {
+  margin-bottom: 24px;
+  color: #656261;
+}
+.entrance_container .column .entrance_list .card {
+  padding: 16px;
+  background: #ffffff;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.0392156863), 0px 4px 8px rgba(0, 0, 0, 0.0588235294);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: 839px;
+}
+.entrance_container .column .entrance_list .card:not(:last-child) {
+  margin-bottom: 24px;
+}
+.entrance_container .column .entrance_list .card:last-child {
+  margin-bottom: 32px;
+}
+.entrance_container .column .entrance_list .card .card_details {
+  margin: auto;
+}
+.entrance_container .column .entrance_list .card .card_details .tags {
+  background: #fae2d1;
+  border-radius: 58px;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: #73370d;
+  width: 92px;
+  margin-bottom: 12px;
+}
+.entrance_container .column .entrance_list .card .card_details h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #3f3b3a;
+  margin-bottom: 8px;
+}
+.entrance_container .column .entrance_list .card .card_details p {
+  font-weight: 300;
+  font-size: 14px;
+  color: #656261;
+  margin-bottom: 12px;
+}
+.entrance_container .column .entrance_list .card .card_details .card_footer {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #8c8989;
+  display: flex;
+  gap: 24px;
+}
+.entrance_container .column .entrance_list .card .card_details .card_footer .icon_name {
+  display: flex;
+  gap: 8px;
+}
+.entrance_container .column form {
+  position: relative;
+  margin-bottom: 24px;
+}
+.entrance_container .column form input[type=text] {
+  padding: 8px 16px;
+  background: #ffffff;
+  border: 1px solid #b2b1b0;
+  border-radius: 4px;
+  color: #8c8989;
+  font-weight: 400;
+  font-size: 14px;
+  width: 264px;
+}
+.entrance_container .column form .search_icon {
+  font-size: 20px;
+  position: absolute;
+  right: 12px;
+  top: 6px;
+  color: #8c8989;
+}
+.entrance_container .column .categorie_list {
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 24px;
+  color: #8c8989;
+}
+.entrance_container .column .categorie_list h4 {
+  color: #3f3b3a;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.entrance_container .column .categorie_list .group {
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.entrance_container .column .categorie_list .group:not(:last-child) {
+  margin-bottom: 8px;
+}
+.entrance_container .page_numbers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 96px;
+}
+.entrance_container .page_numbers .page_no {
+  padding: 8px;
+}
+.entrance_container .page_numbers .border {
+  width: 32px;
+  height: 32px;
+  background: #f8f8f8;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.entrance_container .page_numbers .active {
+  background: #e66e19;
+  color: white;
+  border-radius: 40px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 600px) {

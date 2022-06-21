@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaChevronRight } from "react-icons/fa";
 
 const Result = () => {
   return (

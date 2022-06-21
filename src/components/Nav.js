@@ -34,6 +34,9 @@ const Nav = () => {
             <Link to="/result">Result</Link>
           </li>
           <li>
+            <Link to="/entrance_preparation">Entrance</Link>
+          </li>
+          <li>
             <a href="#">News & Views</a>
           </li>
           <li>

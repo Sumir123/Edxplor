@@ -31,7 +31,9 @@ ol {
   outline: none;
   cursor: pointer;
 }
-
+.row {
+  display: flex;
+}
 a {
   color: #ffffff;
   cursor: pointer;
