@@ -8,6 +8,7 @@ import Nav from "./components/Nav";
 import Colleges_details from "./components/colleges_details";
 import Courses from "./components/courses";
 import Cources_details from "./components/courses_details";
+import Result from "./components/result";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/courses_details" element={<Cources_details />} />
           <Route path="/colleges" element={<Colleges />} />
           <Route path="/colleges_details" element={<Colleges_details />} />
+          <Route path="/result" element={<Result />} />
         </Routes>
         <Footer />
       </div>

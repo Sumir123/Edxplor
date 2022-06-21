@@ -968,25 +968,31 @@ footer .footer_bottom .right {
   margin-top: 152px !important;
 }
 
-.college_details_section, .cources_details_section {
+.college_details_section,
+.cources_details_section {
   margin-top: 175px;
   padding: 0px 119px;
   display: flex;
 }
-.college_details_section .side_section, .cources_details_section .side_section {
+.college_details_section .side_section,
+.cources_details_section .side_section {
   width: 264px;
 }
-.college_details_section .side_section .menus, .cources_details_section .side_section .menus {
+.college_details_section .side_section .menus,
+.cources_details_section .side_section .menus {
   padding: 8px 16px;
   width: max-content;
 }
-.college_details_section .side_section .active, .cources_details_section .side_section .active {
+.college_details_section .side_section .active,
+.cources_details_section .side_section .active {
   box-shadow: -4px 0px 0px #e66e19;
 }
-.college_details_section .main_section, .cources_details_section .main_section {
+.college_details_section .main_section,
+.cources_details_section .main_section {
   margin-left: 64px;
 }
-.college_details_section .main_section .courses .course, .cources_details_section .main_section .courses .course {
+.college_details_section .main_section .courses .course,
+.cources_details_section .main_section .courses .course {
   border: 1px solid #d9d8d8;
   border-radius: 4px;
   padding: 16px 24px;
@@ -994,20 +1000,24 @@ footer .footer_bottom .right {
   align-items: center;
   width: 840px;
 }
-.college_details_section .main_section .courses .course:not(:last-child), .cources_details_section .main_section .courses .course:not(:last-child) {
+.college_details_section .main_section .courses .course:not(:last-child),
+.cources_details_section .main_section .courses .course:not(:last-child) {
   margin-bottom: 16px;
 }
-.college_details_section .main_section .courses .course .title, .cources_details_section .main_section .courses .course .title {
+.college_details_section .main_section .courses .course .title,
+.cources_details_section .main_section .courses .course .title {
   flex: 1;
 }
-.college_details_section .main_section .courses .course .title h4, .cources_details_section .main_section .courses .course .title h4 {
+.college_details_section .main_section .courses .course .title h4,
+.cources_details_section .main_section .courses .course .title h4 {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   color: #3f3b3a;
   margin-bottom: 4px;
 }
-.college_details_section .main_section .courses .course .title .sub_title, .cources_details_section .main_section .courses .course .title .sub_title {
+.college_details_section .main_section .courses .course .title .sub_title,
+.cources_details_section .main_section .courses .course .title .sub_title {
   font-weight: 400;
   font-size: 14px;
   color: #8c8989;
@@ -1015,16 +1025,19 @@ footer .footer_bottom .right {
   align-items: center;
   gap: 14px;
 }
-.college_details_section .main_section .courses .course .title .discount, .cources_details_section .main_section .courses .course .title .discount {
+.college_details_section .main_section .courses .course .title .discount,
+.cources_details_section .main_section .courses .course .title .discount {
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;
   color: #8c8989;
 }
-.college_details_section .main_section .courses .course .title .discount .red, .cources_details_section .main_section .courses .course .title .discount .red {
+.college_details_section .main_section .courses .course .title .discount .red,
+.cources_details_section .main_section .courses .course .title .discount .red {
   color: #ff0000;
 }
-.college_details_section .main_section .courses .course .apply_btn button, .cources_details_section .main_section .courses .course .apply_btn button {
+.college_details_section .main_section .courses .course .apply_btn button,
+.cources_details_section .main_section .courses .course .apply_btn button {
   background: #e66e19;
   border-radius: 8px;
   color: white;
@@ -1035,14 +1048,16 @@ footer .footer_bottom .right {
   align-items: center;
 }
 .college_details_section .main_section .description,
-.college_details_section .main_section .programs, .cources_details_section .main_section .description,
+.college_details_section .main_section .programs,
+.cources_details_section .main_section .description,
 .cources_details_section .main_section .programs {
   margin-top: 96px;
 }
 .college_details_section .main_section .description h3,
 .college_details_section .main_section .description h4,
 .college_details_section .main_section .programs h3,
-.college_details_section .main_section .programs h4, .cources_details_section .main_section .description h3,
+.college_details_section .main_section .programs h4,
+.cources_details_section .main_section .description h3,
 .cources_details_section .main_section .description h4,
 .cources_details_section .main_section .programs h3,
 .cources_details_section .main_section .programs h4 {
@@ -1052,7 +1067,8 @@ footer .footer_bottom .right {
   color: #007296;
 }
 .college_details_section .main_section .description .paragraph h5,
-.college_details_section .main_section .programs .paragraph h5, .cources_details_section .main_section .description .paragraph h5,
+.college_details_section .main_section .programs .paragraph h5,
+.cources_details_section .main_section .description .paragraph h5,
 .cources_details_section .main_section .programs .paragraph h5 {
   color: #3f3b3a;
   font-weight: 500;
@@ -1061,7 +1077,8 @@ footer .footer_bottom .right {
   margin-top: 24px;
 }
 .college_details_section .main_section .description .paragraph p,
-.college_details_section .main_section .programs .paragraph p, .cources_details_section .main_section .description .paragraph p,
+.college_details_section .main_section .programs .paragraph p,
+.cources_details_section .main_section .description .paragraph p,
 .cources_details_section .main_section .programs .paragraph p {
   margin-top: 16px;
   font-weight: 400;
@@ -1072,7 +1089,8 @@ footer .footer_bottom .right {
   width: 840px;
 }
 .college_details_section .main_section .description .paragraph ul,
-.college_details_section .main_section .programs .paragraph ul, .cources_details_section .main_section .description .paragraph ul,
+.college_details_section .main_section .programs .paragraph ul,
+.cources_details_section .main_section .description .paragraph ul,
 .cources_details_section .main_section .programs .paragraph ul {
   font-weight: 400;
   font-size: 16px;
@@ -1083,7 +1101,8 @@ footer .footer_bottom .right {
   grid-template-columns: 1fr 1fr;
 }
 .college_details_section .main_section .description .paragraph ul li,
-.college_details_section .main_section .programs .paragraph ul li, .cources_details_section .main_section .description .paragraph ul li,
+.college_details_section .main_section .programs .paragraph ul li,
+.cources_details_section .main_section .description .paragraph ul li,
 .cources_details_section .main_section .programs .paragraph ul li {
   margin: 0;
   position: relative;
@@ -1091,7 +1110,8 @@ footer .footer_bottom .right {
   margin-bottom: 12px;
 }
 .college_details_section .main_section .description .paragraph ul li:after,
-.college_details_section .main_section .programs .paragraph ul li:after, .cources_details_section .main_section .description .paragraph ul li:after,
+.college_details_section .main_section .programs .paragraph ul li:after,
+.cources_details_section .main_section .description .paragraph ul li:after,
 .cources_details_section .main_section .programs .paragraph ul li:after {
   content: "";
   width: 8px;
@@ -1103,94 +1123,113 @@ footer .footer_bottom .right {
   top: 8px;
   left: 0;
 }
-.college_details_section .main_section .admission_section, .cources_details_section .main_section .admission_section {
+.college_details_section .main_section .admission_section,
+.cources_details_section .main_section .admission_section {
   margin-top: 96px;
 }
-.college_details_section .main_section .admission_section h4, .cources_details_section .main_section .admission_section h4 {
+.college_details_section .main_section .admission_section h4,
+.cources_details_section .main_section .admission_section h4 {
   font-weight: 500;
   font-size: 18px;
   line-height: 130%;
   color: #007296;
 }
-.college_details_section .main_section .admission_section .guidelines table, .cources_details_section .main_section .admission_section .guidelines table {
+.college_details_section .main_section .admission_section .guidelines table,
+.cources_details_section .main_section .admission_section .guidelines table {
   width: 840px;
   margin-top: 24px;
   text-align: left;
   border-collapse: separate;
   border-spacing: 0 8px;
 }
-.college_details_section .main_section .admission_section .guidelines table thead, .cources_details_section .main_section .admission_section .guidelines table thead {
+.college_details_section .main_section .admission_section .guidelines table thead,
+.cources_details_section .main_section .admission_section .guidelines table thead {
   font-weight: 500;
   font-size: 16px;
   border: none;
   color: #3f3b3a;
 }
-.college_details_section .main_section .admission_section .guidelines table thead tr, .cources_details_section .main_section .admission_section .guidelines table thead tr {
+.college_details_section .main_section .admission_section .guidelines table thead tr,
+.cources_details_section .main_section .admission_section .guidelines table thead tr {
   border-radius: 4px;
 }
-.college_details_section .main_section .admission_section .guidelines table thead tr th, .cources_details_section .main_section .admission_section .guidelines table thead tr th {
+.college_details_section .main_section .admission_section .guidelines table thead tr th,
+.cources_details_section .main_section .admission_section .guidelines table thead tr th {
   padding: 16px 16px;
   font-weight: 500;
 }
-.college_details_section .main_section .admission_section .guidelines table tbody, .cources_details_section .main_section .admission_section .guidelines table tbody {
+.college_details_section .main_section .admission_section .guidelines table tbody,
+.cources_details_section .main_section .admission_section .guidelines table tbody {
   font-size: 16px;
   color: #8c8989;
 }
-.college_details_section .main_section .admission_section .guidelines table tbody tr, .cources_details_section .main_section .admission_section .guidelines table tbody tr {
+.college_details_section .main_section .admission_section .guidelines table tbody tr,
+.cources_details_section .main_section .admission_section .guidelines table tbody tr {
   outline: 1px solid #d9d8d8;
   border-radius: 4px;
 }
-.college_details_section .main_section .admission_section .guidelines table tbody tr td, .cources_details_section .main_section .admission_section .guidelines table tbody tr td {
+.college_details_section .main_section .admission_section .guidelines table tbody tr td,
+.cources_details_section .main_section .admission_section .guidelines table tbody tr td {
   padding: 16px 16px;
   font-weight: 400;
   margin-bottom: 4px;
 }
-.college_details_section .main_section .sections, .cources_details_section .main_section .sections {
+.college_details_section .main_section .sections,
+.cources_details_section .main_section .sections {
   margin-top: 96px;
 }
-.college_details_section .main_section .sections .desc p, .cources_details_section .main_section .sections .desc p {
+.college_details_section .main_section .sections .desc p,
+.cources_details_section .main_section .sections .desc p {
   font-weight: 400;
   font-size: 16px;
   color: #787675;
   text-align: justify;
 }
-.college_details_section .main_section .sections .desc p:first-child, .cources_details_section .main_section .sections .desc p:first-child {
+.college_details_section .main_section .sections .desc p:first-child,
+.cources_details_section .main_section .sections .desc p:first-child {
   margin-bottom: 16px;
 }
-.college_details_section .main_section .sections .descriptions, .cources_details_section .main_section .sections .descriptions {
+.college_details_section .main_section .sections .descriptions,
+.cources_details_section .main_section .sections .descriptions {
   margin-bottom: 96px;
 }
-.college_details_section .main_section .sections .descriptions p, .cources_details_section .main_section .sections .descriptions p {
+.college_details_section .main_section .sections .descriptions p,
+.cources_details_section .main_section .sections .descriptions p {
   font-weight: 400;
   font-size: 16px;
   color: #787675;
   width: 840px;
   text-align: justify;
 }
-.college_details_section .main_section .sections .descriptions p:first-child, .cources_details_section .main_section .sections .descriptions p:first-child {
+.college_details_section .main_section .sections .descriptions p:first-child,
+.cources_details_section .main_section .sections .descriptions p:first-child {
   margin-bottom: 16px;
 }
-.college_details_section .main_section .sections h4, .cources_details_section .main_section .sections h4 {
+.college_details_section .main_section .sections h4,
+.cources_details_section .main_section .sections h4 {
   font-size: 18px;
   line-height: 130%;
   font-weight: 500;
   color: #007296;
   margin-bottom: 24px;
 }
-.college_details_section .main_section .sections ul, .cources_details_section .main_section .sections ul {
+.college_details_section .main_section .sections ul,
+.cources_details_section .main_section .sections ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   list-style: none;
   color: #656261;
 }
-.college_details_section .main_section .sections ul li, .cources_details_section .main_section .sections ul li {
+.college_details_section .main_section .sections ul li,
+.cources_details_section .main_section .sections ul li {
   margin: 0;
   position: relative;
   padding-left: 26px;
   margin-bottom: 16px;
 }
-.college_details_section .main_section .sections ul li:after, .cources_details_section .main_section .sections ul li:after {
+.college_details_section .main_section .sections ul li:after,
+.cources_details_section .main_section .sections ul li:after {
   content: "";
   width: 8px;
   height: 8px;
@@ -1201,21 +1240,26 @@ footer .footer_bottom .right {
   top: 8px;
   left: 0;
 }
-.college_details_section .main_section .sections .section, .cources_details_section .main_section .sections .section {
+.college_details_section .main_section .sections .section,
+.cources_details_section .main_section .sections .section {
   display: flex;
   margin-bottom: 96px;
   gap: 32px;
 }
-.college_details_section .main_section .sections .section .descriptions p:first-child, .cources_details_section .main_section .sections .section .descriptions p:first-child {
+.college_details_section .main_section .sections .section .descriptions p:first-child,
+.cources_details_section .main_section .sections .section .descriptions p:first-child {
   margin-bottom: 16px;
 }
-.college_details_section .main_section .sections .section .image .img, .cources_details_section .main_section .sections .section .image .img {
+.college_details_section .main_section .sections .section .image .img,
+.cources_details_section .main_section .sections .section .image .img {
   position: relative;
 }
-.college_details_section .main_section .sections .section .image .img img, .cources_details_section .main_section .sections .section .image .img img {
+.college_details_section .main_section .sections .section .image .img img,
+.cources_details_section .main_section .sections .section .image .img img {
   padding: 8px;
 }
-.college_details_section .main_section .sections .section .image .img_title, .cources_details_section .main_section .sections .section .image .img_title {
+.college_details_section .main_section .sections .section .image .img_title,
+.cources_details_section .main_section .sections .section .image .img_title {
   position: absolute;
   bottom: -15%;
   left: 10%;
@@ -1225,15 +1269,102 @@ footer .footer_bottom .right {
   width: 151px;
   text-align: center;
 }
-.college_details_section .main_section .sections .section .image .img_title h5, .cources_details_section .main_section .sections .section .image .img_title h5 {
+.college_details_section .main_section .sections .section .image .img_title h5,
+.cources_details_section .main_section .sections .section .image .img_title h5 {
   font-weight: 400;
   font-size: 14px;
   color: #201e1d;
 }
-.college_details_section .main_section .sections .section .image .img_title p, .cources_details_section .main_section .sections .section .image .img_title p {
+.college_details_section .main_section .sections .section .image .img_title p,
+.cources_details_section .main_section .sections .section .image .img_title p {
   font-weight: 400;
   font-size: 12px;
   color: #2f2c2c;
+}
+
+.absolute_box {
+  position: absolute;
+  bottom: -8%;
+  left: 10%;
+  padding: 12px;
+  background: #ffffff;
+  border: 1px solid #bbbbbb;
+  border-radius: 8px;
+  width: 1128px;
+}
+.absolute_box .result_search_form .form_container form {
+  display: flex;
+  gap: 12px;
+}
+.absolute_box .result_search_form .form_container form .select_menu select {
+  padding: 16px;
+  outline: none;
+  border: none;
+  width: 288px;
+  color: #79868b;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.absolute_box .result_search_form .form_container form .select_menu option {
+  padding: 5px 16px;
+}
+.absolute_box .result_search_form .form_container form .select_menu button {
+  border: none;
+  outline: none;
+  background: #e66e19;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 16px;
+  padding-right: 24px;
+  width: 180px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.courses_container {
+  margin: 0px 119px;
+  margin-top: 135px;
+  margin-bottom: 95px;
+}
+.courses_container .colleges_info {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.courses_container .colleges_info .college {
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.0392156863), 0px 2px 4px rgba(0, 0, 0, 0.0784313725);
+  border-radius: 4px;
+}
+.courses_container .colleges_info .college .college_name {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #ececec;
+  border-radius: 8px 8px 0px 0px;
+  padding: 16px 24px;
+}
+.courses_container .colleges_info .college .college_name h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3f3b3a;
+}
+.courses_container .colleges_info .college .college_details {
+  padding: 24px;
+}
+.courses_container .colleges_info .college .college_details .detail {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #79868b;
+}
+.courses_container .colleges_info .college .college_details .detail:not(:last-child) {
+  margin-bottom: 12px;
 }
 
 @media (max-width: 600px) {

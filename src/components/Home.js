@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import { FaChevronRight } from "react-icons/fa";
 import { HiOutlineArrowRight } from "react-icons/hi";
 
@@ -19,10 +21,14 @@ const Home = () => {
                 <h5>I'M READY TO</h5>
                 <p>Find courses</p>
               </div>
+
               <div className="action_btn">
-                <FaChevronRight />
+                <Link to="/courses">
+                  <FaChevronRight />
+                </Link>
               </div>
             </div>
+
             <div className="group_action">
               <div className="action_container">
                 <div className="action">
@@ -30,7 +36,9 @@ const Home = () => {
                   <p>Find colleges</p>
                 </div>
                 <div className="action_btn">
-                  <FaChevronRight />
+                  <Link to="/colleges">
+                    <FaChevronRight />
+                  </Link>
                 </div>
               </div>
               <div className="action_container">
@@ -38,6 +46,7 @@ const Home = () => {
                   <h5>I'M READY TO</h5>
                   <p>Find careers</p>
                 </div>
+
                 <div className="action_btn">
                   <FaChevronRight />
                 </div>
