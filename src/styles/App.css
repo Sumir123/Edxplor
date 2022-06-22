@@ -8,8 +8,7 @@ body {
   font-family: "Poppins" !important;
 }
 
-ul,
-ol {
+ul {
   list-style: none;
 }
 
@@ -1661,12 +1660,13 @@ footer .footer_bottom .right {
 
 .questions_container {
   margin: 96px 215px;
+  padding: 24px;
 }
 .questions_container .questions_content .headings {
   margin-bottom: 24px;
 }
 .questions_container .questions_content .headings h3 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 18px;
   color: #333333;
 }
@@ -1675,6 +1675,9 @@ footer .footer_bottom .right {
   font-weight: 400;
   font-size: 14px;
   color: #888888;
+}
+.questions_container .questions_content .all_questions {
+  padding: 0px 15px;
 }
 .questions_container .questions_content .all_questions .questions {
   margin-bottom: 24px;
@@ -1745,6 +1748,78 @@ footer .footer_bottom .right {
 }
 .questions_container .next_btn .btn .rightArrow_icon {
   font-size: 12px;
+}
+
+.popup {
+  position: fixed;
+  width: 408px;
+  height: 423px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  background: #ffffff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 24px;
+  z-index: 10;
+  pointer-events: none;
+}
+.popup.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+.popup img {
+  width: 136px;
+  height: 221px;
+  margin-bottom: 40px;
+}
+.popup div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popup h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+  color: #3f3b3a;
+  margin-bottom: 8px;
+}
+.popup p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #656261;
+  margin-bottom: 16px;
+}
+.popup button {
+  background: #e66e19;
+  border-radius: 4px;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  padding: 12px 16px;
+}
+
+.overlay {
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  pointer-events: none;
+}
+.overlay.active {
+  pointer-events: all;
+  opacity: 1;
 }
 
 @media (max-width: 1200px) {

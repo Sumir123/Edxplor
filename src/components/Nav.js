@@ -8,7 +8,7 @@ const Nav = () => {
     <header>
       <div className="header-top">
         <div className="logo">
-          <img src="./images/logo.png" alt="logo" />
+          <img src="/images/logo.png" alt="logo" />
         </div>
         <div className="end-section">
           <button className=" btn btn-transparent"> Sign In </button>
