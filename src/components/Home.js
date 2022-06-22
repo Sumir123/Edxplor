@@ -338,7 +338,7 @@ const Home = () => {
                   </div>
                   <div className="btn_container">
                     <div className="action">
-                      <p>College Planning</p>
+                      <p>Career Planning</p>
                     </div>
                     <div className="action_btn">
                       <img src="/images/arrow_icon.png" alt="icon" />
@@ -348,7 +348,7 @@ const Home = () => {
                 <div className="resource_btn">
                   <div className="btn_container">
                     <div className="action">
-                      <p>College Planning</p>
+                      <p>Financial Planning </p>
                     </div>
                     <div className="action_btn">
                       <img src="/images/arrow_icon.png" alt="icon" />
@@ -356,7 +356,7 @@ const Home = () => {
                   </div>
                   <div className="btn_container">
                     <div className="action">
-                      <p>College Planning</p>
+                      <p>Health & Wellness</p>
                     </div>
                     <div className="action_btn">
                       <img src="/images/arrow_icon.png" alt="icon" />
@@ -366,7 +366,7 @@ const Home = () => {
                 <div className="resource_btn">
                   <div className="btn_container">
                     <div className="action">
-                      <p>College Planning</p>
+                      <p>Diversity & Inclusion</p>
                     </div>
                     <div className="action_btn">
                       <img src="/images/arrow_icon.png" alt="icon" />
@@ -374,7 +374,7 @@ const Home = () => {
                   </div>
                   <div className="btn_container">
                     <div className="action">
-                      <p>College Planning</p>
+                      <p>Continuing Education</p>
                     </div>
                     <div className="action_btn">
                       <img src="/images/arrow_icon.png" alt="icon" />
