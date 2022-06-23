@@ -15,6 +15,7 @@ import Mockup_test, {
   Before_you_start,
   Questions,
 } from "./components/mockup_test";
+import Benifit_of_membership from "./components/benifit_of_membership";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
             />
             <Route path="/mockup_test/questions" element={<Questions />} />
             <Route path="/mockup_test" element={<Mockup_test />} />
+            <Route path="/membership" element={<Benifit_of_membership />} />
           </Routes>
         </ScrollToTop>
         <Footer />

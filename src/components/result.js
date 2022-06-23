@@ -84,9 +84,7 @@ const Result = () => {
         <div className="colleges_info">
           <div className="college">
             <div className="college_name">
-              <Link to="/courses_details">
-                <h3>Chemistry(XII)</h3>
-              </Link>
+              <h3>Chemistry(XII)</h3>
             </div>
             <div className="college_details">
               <div className="detail">
@@ -123,9 +121,7 @@ const Result = () => {
           </div>
           <div className="college">
             <div className="college_name">
-              <Link to="/courses_details">
-                <h3>Management(XII)</h3>
-              </Link>
+              <h3>Management(XII)</h3>
             </div>
             <div className="college_details">
               <div className="detail">
@@ -162,9 +158,7 @@ const Result = () => {
           </div>
           <div className="college">
             <div className="college_name">
-              <Link to="/courses_details">
-                <h3>Engineering(XII)</h3>
-              </Link>
+              <h3>Engineering(XII)</h3>
             </div>
             <div className="college_details">
               <div className="detail">
@@ -201,9 +195,7 @@ const Result = () => {
           </div>
           <div className="college">
             <div className="college_name">
-              <Link to="/courses_details">
-                <h3>Education(XII)</h3>
-              </Link>
+              <h3>Education(XII)</h3>
             </div>
             <div className="college_details">
               <div className="detail">
@@ -240,9 +232,7 @@ const Result = () => {
           </div>
           <div className="college">
             <div className="college_name">
-              <Link to="/courses_details">
-                <h3>Animal Science(XII)</h3>
-              </Link>
+              <h3>Animal Science(XII)</h3>
             </div>
             <div className="college_details">
               <div className="detail">
@@ -279,9 +269,7 @@ const Result = () => {
           </div>
           <div className="college">
             <div className="college_name">
-              <Link to="/courses_details">
-                <h3>Law(XII)</h3>
-              </Link>
+              <h3>Law(XII)</h3>
             </div>
             <div className="college_details">
               <div className="detail">
@@ -318,9 +306,7 @@ const Result = () => {
           </div>
           <div className="college">
             <div className="college_name">
-              <Link to="/courses_details">
-                <h3>Humanitites(XII)</h3>
-              </Link>
+              <h3>Humanitites(XII)</h3>
             </div>
             <div className="college_details">
               <div className="detail">
@@ -357,9 +343,7 @@ const Result = () => {
           </div>
           <div className="college">
             <div className="college_name">
-              <Link to="/courses_details">
-                <h3>Law(XII)</h3>
-              </Link>
+              <h3>Law(XII)</h3>
             </div>
             <div className="college_details">
               <div className="detail">
@@ -396,9 +380,7 @@ const Result = () => {
           </div>
           <div className="college">
             <div className="college_name">
-              <Link to="/courses_details">
-                <h3>Fine Arts(XII)</h3>
-              </Link>
+              <h3>Fine Arts(XII)</h3>
             </div>
             <div className="college_details">
               <div className="detail">
@@ -435,9 +417,7 @@ const Result = () => {
           </div>
           <div className="college">
             <div className="college_name">
-              <Link to="/courses_details">
-                <h3>science(Xi)</h3>
-              </Link>
+              <h3>science(Xi)</h3>
             </div>
             <div className="college_details">
               <div className="detail">
@@ -474,9 +454,7 @@ const Result = () => {
           </div>
           <div className="college">
             <div className="college_name">
-              <Link to="/courses_details">
-                <h3>Chemistry(XI) </h3>
-              </Link>
+              <h3>Chemistry(XI) </h3>
             </div>
             <div className="college_details">
               <div className="detail">
@@ -513,9 +491,7 @@ const Result = () => {
           </div>
           <div className="college">
             <div className="college_name">
-              <Link to="/courses_details">
-                <h3>Law(XI)</h3>
-              </Link>
+              <h3>Law(XI)</h3>
             </div>
             <div className="college_details">
               <div className="detail">

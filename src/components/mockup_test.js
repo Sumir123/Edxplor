@@ -357,19 +357,19 @@ const Questions = () => {
       </div>
       {popup && (
         <>
-          <div className="popup active" id="popup">
-            <img src="/images/congrats_img.png" alt="" />
-            <div>
-              <h3>Congratulations!</h3>
-              <p>You have scored 25 out of 30</p>
-              <button>Continue</button>
-            </div>
-          </div>
           <div
             className="overlay active"
             id="overlay"
             onClick={togglePopup}
           ></div>
+          <div className="popup active" id="popup">
+            <img src="/images/congrats_img.png" alt="" />
+            <div>
+              <h3>Congratulations!</h3>
+              <p>You have scored 25 out of 30</p>
+              <button onClick={togglePopup}>Continue</button>
+            </div>
+          </div>
         </>
       )}
     </>

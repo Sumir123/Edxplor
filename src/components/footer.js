@@ -41,7 +41,7 @@ const Footer = () => {
                 <Link to="/mockup_test"> Mockup Test</Link>
               </li>
               <li>
-                <a href="#"> Remittance</a>
+                <Link to="/membership"> Membership</Link>
               </li>
               <li>
                 <a href="#">Deposit</a>

@@ -258,7 +258,7 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) scale(0);
-  transition: 200ms ease-in-out;
+  transition: 300ms ease-in-out;
   background: #ffffff;
   border-radius: 4px;
   display: flex;
@@ -306,6 +306,7 @@
     text-align: center;
     color: #ffffff;
     padding: 12px 16px;
+    cursor: pointer;
   }
 }
 .overlay {
@@ -316,10 +317,126 @@
   bottom: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.7);
+  transition: 300ms ease-in-out;
   pointer-events: none;
   &.active {
     pointer-events: all;
     opacity: 1;
+  }
+}
+/////////////////         Membership           //////////////////
+
+.content_main_body {
+  margin: 96px 311px;
+  .headings {
+    h1 {
+      font-weight: 600;
+      font-size: 48px;
+      color: #0d485d;
+      margin-bottom: 16px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      color: #656261;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+  }
+  .paragraph {
+    h5 {
+      font-weight: 500;
+      font-size: 18px;
+      color: #3f3b3a;
+      margin-top: 40px;
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #656261;
+      margin-top: 24px;
+    }
+    ul {
+      margin-top: 24px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      list-style: none;
+      color: #656261;
+    }
+    li {
+      margin: 0;
+      position: relative;
+      padding-left: 26px;
+      margin-bottom: 16px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      &::after {
+        content: "";
+        width: 8px;
+        height: 8px;
+        background: #e66e19;
+        display: block;
+        position: absolute;
+        transform: rotate(45deg);
+        top: 8px;
+        left: 0;
+      }
+    }
+  }
+  .send_message_form {
+    margin-top: 96px;
+    h5 {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #656261;
+    }
+    form {
+      margin-top: 24px;
+      .row {
+        gap: 25px;
+        margin-bottom: 16px;
+      }
+      input {
+        padding: 16px;
+        background: #f1f2f6;
+        border-radius: 4px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #5c5c5c;
+        border: none;
+        outline: none;
+        width: 359.5px;
+      }
+      textarea {
+        font-family: "Poppins";
+        width: 744px;
+        height: 156px;
+        outline: none;
+        padding: 16px;
+        background: #f1f2f6;
+        border-radius: 4px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #5c5c5c;
+        border: none;
+        resize: none;
+        margin-bottom: 16px;
+      }
+      button {
+        padding: 16px 24px;
+        background: #e66e19;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        color: white;
+      }
+    }
   }
 }
 
