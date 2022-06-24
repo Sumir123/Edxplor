@@ -1,4 +1,4 @@
-In terminal nagivate to style floder and
+In terminal nagivate to style folder and
 Run 
 sass --watch app.scss:app.css
 to

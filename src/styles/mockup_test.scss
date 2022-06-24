@@ -239,12 +239,15 @@
       gap: 8px;
       align-items: center;
       padding: 8px 16px;
-      border: 1px solid #656261;
       border-radius: 4px;
       font-weight: 400;
       font-size: 14px;
-      color: #656261;
+      background-color: #e66e19;
+      color: white;
       margin-left: auto;
+      &:hover {
+        background-color: #c35e15;
+      }
       .rightArrow_icon {
         font-size: 12px;
       }

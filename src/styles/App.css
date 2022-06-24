@@ -1739,12 +1739,15 @@ footer .footer_bottom .right {
   gap: 8px;
   align-items: center;
   padding: 8px 16px;
-  border: 1px solid #656261;
   border-radius: 4px;
   font-weight: 400;
   font-size: 14px;
-  color: #656261;
+  background-color: #e66e19;
+  color: white;
   margin-left: auto;
+}
+.questions_container .next_btn .btn:hover {
+  background-color: #c35e15;
 }
 .questions_container .next_btn .btn .rightArrow_icon {
   font-size: 12px;
@@ -1947,6 +1950,131 @@ footer .footer_bottom .right {
     margin-top: 0px;
   }
 }
+.side_img_left {
+  position: absolute;
+  left: -28px;
+  top: 529px;
+}
+
+.side_img_right {
+  position: absolute;
+  left: 953px;
+  top: 229px;
+}
+
+.signin_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 75px 507px;
+}
+.signin_container .main_signInContainer .logo {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.signin_container .signInContainer {
+  background: #ffffff;
+  box-shadow: 0px -1px 8px rgba(0, 0, 0, 0.08), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 32px;
+}
+.signin_container .signInContainer .form_container h3 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #100f0f;
+  margin-bottom: 16px;
+}
+.signin_container .signInContainer .form_container .form form button {
+  padding: 12px 24px;
+  background: #e66e19;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 16px;
+}
+.signin_container .signInContainer .form_container .form form .form_group_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.signin_container .signInContainer .form_container .form form .form_group_row a {
+  font-weight: 400;
+  font-size: 12px;
+  color: #007296;
+}
+.signin_container .signInContainer .form_container .form form .form_group_row input[type=checkbox] {
+  border: 1px solid #b2b1b0;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+.signin_container .signInContainer .form_container .form form .form_group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 12px;
+  position: relative;
+}
+.signin_container .signInContainer .form_container .form form .form_group:last-child {
+  margin-bottom: 16px;
+}
+.signin_container .signInContainer .form_container .form form .form_group label {
+  font-weight: 400;
+  font-size: 14px;
+  color: #3f3b3a;
+}
+.signin_container .signInContainer .form_container .form form .form_group .hidePassIcon,
+.signin_container .signInContainer .form_container .form form .form_group .showPassIcon {
+  position: absolute;
+  right: 16px;
+  bottom: 10px;
+  color: #8c8989;
+  z-index: 10;
+  cursor: pointer;
+}
+.signin_container .signInContainer .form_container .form form .form_group .hide {
+  display: none;
+}
+.signin_container .signInContainer .form_container .form form .form_group input[type=text],
+.signin_container .signInContainer .form_container .form form .form_group input[type=password] {
+  padding: 8px 16px;
+  background: #ffffff;
+  border: 1px solid #d9d8d8;
+  border-radius: 4px;
+  font-weight: 300;
+  font-size: 14px;
+  color: #3f3b3a;
+  outline: none;
+}
+.signin_container .signInContainer .form_container .form form .form_group input[type=text]::placeholder,
+.signin_container .signInContainer .form_container .form form .form_group input[type=password]::placeholder {
+  color: #b2b1b0;
+}
+.signin_container .signInContainer .other_methods h3 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  color: #3f3b3a;
+}
+.signin_container .signInContainer .other_methods .icon_group {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+.signin_container .signInContainer .other_methods .icon_group .icon {
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.04);
+  border-radius: 40px;
+  font-size: 16px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (max-width: 600px) {
   .header-top,
 .header-bottom,

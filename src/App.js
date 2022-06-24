@@ -16,34 +16,38 @@ import Mockup_test, {
   Questions,
 } from "./components/mockup_test";
 import Benifit_of_membership from "./components/benifit_of_membership";
+import Signin from "./components/signin";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Nav />
-        <ScrollToTop>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/courses" element={<Courses />} />
-            <Route path="/courses_details" element={<Cources_details />} />
-            <Route path="/colleges" element={<Colleges />} />
-            <Route path="/colleges_details" element={<Colleges_details />} />
-            <Route path="/result" element={<Result />} />
-            <Route path="/entrance_preparation" element={<Entrance_prep />} />
-            <Route path="/mockup_test" element={<Mockup_test />} />
-            <Route
-              path="/mockup_test/before_you_start"
-              element={<Before_you_start />}
-            />
-            <Route path="/mockup_test/questions" element={<Questions />} />
-            <Route path="/mockup_test" element={<Mockup_test />} />
-            <Route path="/membership" element={<Benifit_of_membership />} />
-          </Routes>
-        </ScrollToTop>
-        <Footer />
-      </div>
-    </Router>
+    <>
+      <Router>
+        <div className="App">
+          <Nav />
+          <ScrollToTop>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/courses" element={<Courses />} />
+              <Route path="/courses_details" element={<Cources_details />} />
+              <Route path="/signin" element={<Signin />} />
+              <Route path="/colleges" element={<Colleges />} />
+              <Route path="/colleges_details" element={<Colleges_details />} />
+              <Route path="/result" element={<Result />} />
+              <Route path="/entrance_preparation" element={<Entrance_prep />} />
+              <Route path="/mockup_test" element={<Mockup_test />} />
+              <Route
+                path="/mockup_test/before_you_start"
+                element={<Before_you_start />}
+              />
+              <Route path="/mockup_test/questions" element={<Questions />} />
+              <Route path="/mockup_test" element={<Mockup_test />} />
+              <Route path="/membership" element={<Benifit_of_membership />} />
+            </Routes>
+          </ScrollToTop>
+          <Footer />
+        </div>
+      </Router>
+    </>
   );
 }
 

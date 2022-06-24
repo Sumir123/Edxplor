@@ -101,7 +101,7 @@ const Before_you_start = () => {
           </svg>
 
           <div className="instruction">
-            <h3>BehtmlFore you start</h3>
+            <h3>Before you start</h3>
 
             <ul className="lists">
               <li>
