@@ -68,7 +68,7 @@ const Signin = () => {
                       <input type="checkbox" id="check" />
                       <label htmlFor="check">Remember Me</label>
                     </div>
-                    <a href="#">Forgot Password?</a>
+                    <link href="#">Forgot Password?</link>
                   </div>
                   <button>Sign In</button>
                 </form>
