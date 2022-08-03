@@ -273,7 +273,7 @@ const Home = () => {
                   <p> Goodwill Saving closes NPR 16 Billion Project Loan....</p>
                 </div>
                 <div className="card_last">
-                  <a href="#">Read More</a>
+                  <link href="#">Read More</link>
                   <div className="date">
                     <img src="/images/timer_icon.png" alt="icon" />
                     <p>November 17, 2021</p>
@@ -295,7 +295,7 @@ const Home = () => {
                   <p> Goodwill Saving closes NPR 16 Billion Project Loan....</p>
                 </div>
                 <div className="card_last">
-                  <a href="#">Read More</a>
+                  <link href="#">Read More</link>
                   <div className="date">
                     <img src="/images/timer_icon.png" alt="icon" />
                     <p>November 17, 2021</p>

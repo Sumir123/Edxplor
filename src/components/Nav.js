@@ -41,15 +41,15 @@ const Nav = () => {
             <Link to="/entrance_preparation">Entrance</Link>
           </li>
           <li>
-            <a href="#">News & Views</a>
+            <link href="#">News & Views</link>
           </li>
           <li>
-            <a href="#">Contact Us</a>
+            <link href="#">Contact Us</link>
           </li>
           <li>
-            <a href="#">
+            <link href="#">
               <FiSearch className="search_icon" strokeWidth="2.5" />
-            </a>
+            </link>
           </li>
         </ul>
       </div>

@@ -42,7 +42,7 @@ const Colleges_details = () => {
                   fill="#787B7C"
                 />
               </svg>
-              <a>Kuleshwor , Kathmandu</a>
+              <link>Kuleshwor , Kathmandu</link>
             </div>
             <div className="contact">
               <svg
@@ -58,7 +58,7 @@ const Colleges_details = () => {
                 />
               </svg>
 
-              <a>+977-1-5542546</a>
+              <link>+977-1-5542546</link>
             </div>
             <div className="contact">
               <svg
@@ -74,7 +74,7 @@ const Colleges_details = () => {
                 />
               </svg>
 
-              <a>Purbanchal University</a>
+              <link>Purbanchal University</link>
             </div>
             <div className="contact">
               <svg
@@ -90,7 +90,7 @@ const Colleges_details = () => {
                 />
               </svg>
 
-              <a>Established on 1914 A.D</a>
+              <link>Established on 1914 A.D</link>
             </div>
           </div>
         </div>
@@ -246,7 +246,7 @@ const Colleges_details = () => {
           </div>
           <div className="sections">
             <h4>Location </h4>
-            <img src="/images/location_img.png"></img>
+            <img src="/images/location_img.png" alt=""></img>
           </div>
           <div className="sections">
             <h4>Overview </h4>
@@ -272,7 +272,7 @@ const Colleges_details = () => {
               </div>
               <div className="image">
                 <div className="img">
-                  <img src="/images/principal_image.png" />
+                  <img src="/images/principal_image.png" alt=""/>
                   <div className="img_title">
                     <h5>Ram Shrestha</h5>
                     <p>Principal</p>
