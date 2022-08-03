@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { HiEyeOff, HiEye } from "react-icons/hi";
 
 const Signin = () => {
@@ -23,16 +23,16 @@ const Signin = () => {
   return (
     <>
       <div className="side_img_left">
-        <img src="/images/signin_side_left.png" />
+        <img alt="" src="/images/signin_side_left.png" />
       </div>
       <div className="side_img_right">
-        <img src="/images/signin_side_right.png" />
+        <img alt="" src="/images/signin_side_right.png" />
       </div>
 
       <div className="signin_container">
         <div className="main_signInContainer">
           <div className="logo">
-            <img src="/images/logo.png" />
+            <img alt="" src="/images/logo.png" />
           </div>
           <div className="signInContainer">
             <div className="form_container">
@@ -89,10 +89,10 @@ const Signin = () => {
               <h3>You can also login with</h3>
               <div className="icon_group">
                 <div className="icon">
-                  <img src="/images/facebook.png" />
+                  <img alt="" src="/images/facebook.png" />
                 </div>
                 <div className="icon">
-                  <img src="/images/google.png" />
+                  <img alt="" src="/images/google.png" />
                 </div>
               </div>
             </div>
