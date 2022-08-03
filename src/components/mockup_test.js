@@ -71,7 +71,7 @@ const Mockup_test = () => {
   );
 };
 
-const Before_you_start = () => {
+const BeforeYouStart = () => {
   return (
     <>
       <div className="before_we_start">
@@ -377,4 +377,4 @@ const Questions = () => {
 };
 
 export default Mockup_test;
-export { Before_you_start, Questions };
+export { BeforeYouStart, Questions };
