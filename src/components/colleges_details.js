@@ -42,7 +42,7 @@ const Colleges_details = () => {
                   fill="#787B7C"
                 />
               </svg>
-              <link>Kuleshwor , Kathmandu</link>
+              <a>Kuleshwor , Kathmandu</a>
             </div>
             <div className="contact">
               <svg
@@ -58,7 +58,7 @@ const Colleges_details = () => {
                 />
               </svg>
 
-              <link>+977-1-5542546</link>
+              <a>+977-1-5542546</a>
             </div>
             <div className="contact">
               <svg
@@ -74,7 +74,7 @@ const Colleges_details = () => {
                 />
               </svg>
 
-              <link>Purbanchal University</link>
+              <a>Purbanchal University</a>
             </div>
             <div className="contact">
               <svg
@@ -90,7 +90,7 @@ const Colleges_details = () => {
                 />
               </svg>
 
-              <link>Established on 1914 A.D</link>
+              <a>Established on 1914 A.D</a>
             </div>
           </div>
         </div>

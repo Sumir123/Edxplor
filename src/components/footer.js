@@ -10,25 +10,25 @@ const Footer = () => {
           <div className="footer_list">
             <ul>
               <li>
-                <link href="#"> Department of Cooperative</link>
+                <a href="#"> Department of Cooperative</a>
               </li>
               <li>
-                <link href="#"> Nepal Rastra Bank Ltd.</link>
+                <a href="#"> Nepal Rastra Bank Ltd.</a>
               </li>
               <li>
-                <link href="#"> Employees Provident Fund</link>
+                <a href="#"> Employees Provident Fund</a>
               </li>
               <li>
-                <link href="#">Nepal Stock Exchange</link>
+                <a href="#">Nepal Stock Exchange</a>
               </li>
               <li>
-                <link href="#">NEFSCUN</link>
+                <a href="#">NEFSCUN</a>
               </li>
               <li>
-                <link href="#">Department of Transport Mgmt</link>
+                <a href="#">Department of Transport Mgmt</a>
               </li>
               <li>
-                <link href="#"> Citizen Investment Trust</link>
+                <a href="#"> Citizen Investment Trust</a>
               </li>
             </ul>
           </div>
@@ -44,13 +44,13 @@ const Footer = () => {
                 <Link to="/membership"> Membership</Link>
               </li>
               <li>
-                <link href="#">Deposit</link>
+                <a href="#">Deposit</a>
               </li>
               <li>
-                <link href="#">Loan</link>
+                <a href="#">Loan</a>
               </li>
               <li>
-                <link href="#">Smart Banking</link>
+                <a href="#">Smart Banking</a>
               </li>
             </ul>
           </div>
@@ -61,15 +61,15 @@ const Footer = () => {
             <ul>
               <li>
                 <img src="/images/location_icon.png" alt="icon" />
-                <link href="#">Chabahil -7, Kathmandu</link>
+                <a href="#">Chabahil -7, Kathmandu</a>
               </li>
               <li>
                 <img src="/images/phone_icon.png" alt="icon" />
-                <link href="#">01 4478416, 4481746</link>
+                <a href="#">01 4478416, 4481746</a>
               </li>
               <li>
                 <img src="/images/email_icon.png" alt="icon" />
-                <link href="#">abc@example.com</link>
+                <a href="#">abc@example.com</a>
               </li>
             </ul>
           </div>
@@ -100,9 +100,9 @@ const Footer = () => {
       <div className="footer_bottom">
         <div className="left">© 2022 All Rights Reserved</div>
         <div className="right">
-          <link href="#">Privacy Policy</link>
-          <link href="#">Terms of Use</link>
-          <link href="#">Site Map</link>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Site Map</a>
         </div>
       </div>
     </footer>

@@ -30,7 +30,8 @@ const Benifit_of_membership = () => {
         <div className="headings">
           <h1>Benefits of Membership</h1>
           <p>
-            <img src="images/calander_icon.png" alt=""/> Last Updated on July 18,2022
+            <img src="images/calander_icon.png" alt="" /> Last Updated on July
+            18,2022
           </p>
         </div>
         <div className="paragraph">
