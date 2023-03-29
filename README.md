@@ -1,4 +1,7 @@
 Site Live demo:https://edxplor1.netlify.app/
+
+limitations:
+-not ready for mobile Devices
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
