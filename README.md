@@ -1,7 +1,5 @@
-Site Live demo:https://edxplor1.netlify.app/
+![image](https://github.com/Sumir123/Edxplor/assets/71181873/cf14e69c-950e-40d9-bbc5-0048bba5befc)
 
-limitations:
--not ready for mobile Devices
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
